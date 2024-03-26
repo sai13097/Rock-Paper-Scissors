@@ -4,7 +4,7 @@ window.onload = () => {
 }
 
 const getPlayerName = function() {
-  let name = prompt("Please Enter Your Name");
+  let name = prompt("Please Enter Your Name ");
   return name;
 }
 
