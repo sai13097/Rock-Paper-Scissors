@@ -4,7 +4,7 @@ window.onload = () => {
 }
 
 const getPlayerName = function() {
-  let name = prompt("Please Enter Your Name bro");
+  let name = prompt("Please Enter Your Name");
   return name;
 }
 
@@ -58,7 +58,7 @@ function showResult(name, score, playerChoice, computerChoice) {
   }
   handsDiv.innerText = ` 🥷🏻${playerChoice} vs 🤓 ${computerChoice}`
   playerScoreDiv.innerText = `${name[0].toUpperCase() + name.slice(1)} Total Score: ${totalScore['playerScore']}`
-  computerScoreDiv.innerText = `Narasimha Total Score: ${totalScore['computerScore']}`
+  computerScoreDiv.innerText = `Surya Total Score: ${totalScore['computerScore']}`
 }
 
 function onClickRPS(name, playerChoice) {
